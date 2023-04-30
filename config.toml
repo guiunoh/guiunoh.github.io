@@ -1,3 +1,13 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseurl = "https://guiunoh.github.io"
+languageCode = 'ko-kr'
+title = "archives"
+theme = "mainroad"
+
+[Params]
+  post_meta = ["date", "categories"] # Order of post meta information
+  mainSections = ["posts"]
+
+[Params.sidebar]
+  home = "right"   # Configure layout for home page
+  # Enable widgets in given order
+  widgets = ["search", "recent", "categories", "taglist"]
