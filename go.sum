@@ -10,11 +10,17 @@ github.com/h-enk/doks-child-theme v0.5.0 h1:OrLbcGv6GfhDMs8O2OK93e0hUMvV1aygJWeA
 github.com/h-enk/doks-child-theme v0.5.0/go.mod h1:SCLBJIX7W4LH6rbaY9v31i1fwk0DRYoVwDWNMiRpE78=
 github.com/hugo-sid/hugo-blog-awesome v0.0.0-20230428154514-ab263ddb8e76 h1:gBAqcvY2Hg1EJ5lfbfW2FB2tSNdbom9IlzpAWM9+dDQ=
 github.com/hugo-sid/hugo-blog-awesome v0.0.0-20230428154514-ab263ddb8e76/go.mod h1:oRoqH9/bJDdyQqBoxI77O1oWAwVtn+fTng9MD3vR8A0=
+github.com/hugomods/utterances v0.1.0 h1:0mEKjG4eke/jdTPIxL2qfdm9W9TFpqgWh1x6d1n7Xg8=
+github.com/hugomods/utterances v0.1.0/go.mod h1:p6YjYb9iUozzKTP6V6Rhw3DCaZeXv+qonNVl+UZE0A8=
+github.com/jonathanjanssens/hugo-casper3 v1.0.1 h1:aTavB32ZE8BFumT0uViYRTalJJgXAsD9u2HFU/ahAaw=
+github.com/jonathanjanssens/hugo-casper3 v1.0.1/go.mod h1:yE0PdETecMIsBr4tO/G3oIZ4nCDI5+csw8Ctk7low0E=
 github.com/sbruder/spectral v0.0.0-20230306171048-8463c525fb19 h1:phqQz6uIvQS8pKKLbpKPj8Mb4Ex03YDOqLPdM84/bEU=
 github.com/sbruder/spectral v0.0.0-20230306171048-8463c525fb19/go.mod h1:CHnkp+QVfAbCTODPDirPd9CsuN9TMF7eqYXKiw+KaMM=
 github.com/serkodev/holy v0.0.0-20221206094014-6c3be2194534 h1:6VvfQpLBY36OfoC52TXw8pk5YvooEHAfkQ5SxQ2d4pY=
 github.com/serkodev/holy v0.0.0-20221206094014-6c3be2194534/go.mod h1:DkatpwWKNZ8djg808hh7hGEPvQKmKaYGXPWQeWcqCfE=
 github.com/thingsym/hugo-theme-techdoc v0.9.9 h1:7eHNfuf0x86MtLmUPhKCUoQ6cR/Iuwqm9TPtHtuUAkc=
 github.com/thingsym/hugo-theme-techdoc v0.9.9/go.mod h1:HgH3EWQ4j2sDjNP8UBio6zyZim8RnfJCY1gTWxVGcxA=
+github.com/vimux/amnix v0.0.0-20230425163332-ae76c1e7b906 h1:XOUItlgspG7ATCPpuQJlTAvewerw3cT5VzmOGYaGv+8=
+github.com/vimux/amnix v0.0.0-20230425163332-ae76c1e7b906/go.mod h1:WSDJuZMiKJMTksVDOOmv3kLeoMzvyVOKbo9tObCouAk=
 github.com/vimux/mainroad v0.0.0-20230425163511-ec8a1a08c2fc h1:ETB+lCNXzv2y027uLjnX6aCFYK4soUGn4uW5RyUZmUE=
 github.com/vimux/mainroad v0.0.0-20230425163511-ec8a1a08c2fc/go.mod h1:Gk9iXsARNmAg+2szyzue3lvbLsvJQPNmKqOrbSjYCPM=
