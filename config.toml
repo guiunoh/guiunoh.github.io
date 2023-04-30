@@ -1,13 +1,61 @@
 baseurl = "https://guiunoh.github.io"
 languageCode = 'ko-kr'
 title = "blog"
-theme = "mainroad"
+copyright = "@copyright"
+theme =  ["github.com/hugo-sid/hugo-blog-awesome"]
 
-[Params]
-  post_meta = ["date", "categories"] # Order of post meta information
-  mainSections = ["posts"]
 
-[Params.sidebar]
-  home = "right"   # Configure layout for home page
-  # Enable widgets in given order
-  widgets = ["search", "recent", "categories", "taglist"]
+# Enable emojis globally
+enableEmoji = true
+
+# set markup.highlight.noClasses=false to enable code highlight
+[markup]
+  [markup.highlight]
+    noClasses = false
+  [markup.goldmark.renderer]
+    unsafe = true
+
+[menu]
+  [[menu.main]] 
+    # The page reference (pageRef) is useful for menu highlighting
+    # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
+    pageRef="/"
+    name = 'Home'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    pageRef="posts"
+    name = 'Posts'
+    url = '/posts/'
+    weight = 20
+  [[menu.main]]
+    pageRef="about"
+    name = 'About'
+    url = '/about/'
+    weight = 30
+
+[params]
+  copyright = "@copyright"  
+  sitename = "@sitename"
+  defaultColor = "dark" # set color mode: dark, light, auto
+  # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank, 
+  # the default value is set to 'auto'. 
+  # You can take a look at layouts/index.html for more information.
+  description = "@description"
+  mainSections = ['posts']
+
+[params.author]
+#   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
+  # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
+  intro = "guiun.oh@me.com"
+  name = "guiun oh"
+  description = "@description"
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/hugo-sid"
+
+[[params.socialIcons]]
+name = "twitter"
+url = "https://twitter.com"
+
