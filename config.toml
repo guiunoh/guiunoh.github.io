@@ -1,6 +1,6 @@
 baseurl = "https://guiunoh.github.io"
 languageCode = 'ko-kr'
-title = "archives"
+title = "blog"
 theme = "mainroad"
 
 [Params]
